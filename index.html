@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="404 Service - Plataforma líder en servicios profesionales online y presenciales">
+    <meta name="theme-color" content="#735ac0">
+    <title>404 Service</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header__content">
+                <!-- Logo -->
+                <a href="#" class="logo">
+                    <div class="logo__icon">
+                        <span>404</span>
+                    </div>
+                    <span class="logo__text">Service</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav" id="nav">
+                    <a href="#servicios" class="nav__link">Servicios</a>
+                    <a href="#sobre-nosotros" class="nav__link">Nosotros</a>
+                    <a href="#beneficios" class="nav__link">Beneficios</a>
+                    <a href="#testimonios" class="nav__link">Testimonios</a>
+                    <a href="#contacto" class="nav__link">Contacto</a>
+                </nav>
+
+                <!-- Desktop Actions -->
+                <div class="header__actions">
+                    <button class="btn-cart" aria-label="Carrito de compras">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        <span class="cart-badge">0</span>
+                    </button>
+                    <button class="btn btn--outline">Iniciar Sesión</button>
+                    <button class="btn btn--primary">Registrarse</button>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <nav class="mobile-menu__nav">
+                    <a href="#servicios" class="mobile-menu__link">Servicios</a>
+                    <a href="#sobre-nosotros" class="mobile-menu__link">Nosotros</a>
+                    <a href="#beneficios" class="mobile-menu__link">Beneficios</a>
+                    <a href="#testimonios" class="mobile-menu__link">Testimonios</a>
+                    <a href="#contacto" class="mobile-menu__link">Contacto</a>
+                </nav>
+                <div class="mobile-menu__actions">
+                    <button class="btn btn--outline btn--full">Iniciar Sesión</button>
+                    <button class="btn btn--primary btn--full">Registrarse</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero__bg">
+                <div class="hero__bg-circle hero__bg-circle--1"></div>
+                <div class="hero__bg-circle hero__bg-circle--2"></div>
+            </div>
+
+            <div class="container">
+                <div class="hero__content">
+                    <!-- Badge -->
+                    <div class="badge badge--animated">
+                        <span class="badge__pulse"></span>
+                        Nuevos servicios disponibles
+                    </div>
+
+                      <!-- Main Heading -->
+                    <h1 class="hero__title">
+                        Servicio no encontrado... <span class="text-primary">hasta ahora</span>
+                    </h1>
+
+                    <!-- Subtitle -->
+                    <p class="hero__subtitle">
+                        Desde reparaciones en el hogar hasta experiencias online, conectamos profesionales con quienes buscan soluciones.
+                    </p>
+
+                    <!-- CTA Buttons -->
+                    <div class="hero__cta">
+                        <button class="btn btn--primary btn--lg">
+                            Explorar Servicios
+                            <svg class="icon icon--arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </button>
+                        <a href="#sobre-nosotros" class="btn btn--outline btn--lg">Conocer Más</a>
+                    </div>
+
+                    <!-- Search Bar -->
+                    <div class="search-bar">
+                        <svg class="search-bar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <input type="text" class="search-bar__input" placeholder="¿Qué servicio necesitas? Ej: Gasfitería, Gaming...">
+                    </div>
+
+                    <!-- Stats -->
+                    <div class="stats">
+                        <div class="stat">
+                            <div class="stat__number text-primary">500+</div>
+                            <div class="stat__label">Servicios</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat__number text-secondary">10k+</div>
+                            <div class="stat__label">Clientes</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat__number text-primary">4.9</div>
+                            <div class="stat__label">Calificación</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="servicios" class="section">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section__header">
+                    <h2 class="section__title">
+                        Explora nuestros <span class="text-primary">servicios</span>
+                    </h2>
+                    <p class="section__subtitle">
+                        Encuentra el servicio perfecto para tus necesidades. Online o presencial, tenemos profesionales listos para ayudarte.
+                    </p>
+                </div>
+
+                <!-- Services Grid -->
+                <div class="services-grid">
+                    <!-- Service Card 1 -->
+                    <div class="service-card">
+                        <div class="service-card__header">
+                            <div class="service-card__icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                                </svg>
+                            </div>
+                            <span class="badge badge--popular">Popular</span>
+                        </div>
+                        <h3 class="service-card__title">Gasfitería Profesional</h3>
+                        <p class="service-card__description">Reparaciones y mantención de sistemas de agua y gas. Profesionales certificados.</p>
+                        <div class="service-card__info">
+                            <span class="service-card__price">Desde $25.000</span>
+                            <span class="service-card__type">Presencial</span>
+                        </div>
+                        <a href="servicio.html" class="btn btn--outline btn--full">
+                            Ver Detalles
+                            <span class="btn__arrow">→</span>
+                        </a>
+                    </div>
+
+                    <!-- Service Card 2 -->
+                    <div class="service-card">
+                        <div class="service-card__header">
+                            <div class="service-card__icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="7" width="20" height="15" rx="2" ry="2"/>
+                                    <polyline points="17 2 12 7 7 2"/>
+                                </svg>
+                            </div>
+                            <span class="badge badge--new">Nuevo</span>
+                        </div>
+                        <h3 class="service-card__title">Sesión Gaming Online</h3>
+                        <p class="service-card__description">Juega con profesionales o aprende estrategias. Diferentes juegos disponibles.</p>
+                        <div class="service-card__info">
+                            <span class="service-card__price">Desde $8.000/hora</span>
+                            <span class="service-card__type">Online</span>
+                        </div>
+                        <a href="servicio.html" class="btn btn--outline btn--full">
+                            Ver Detalles
+                            <span class="btn__arrow">→</span>
+                        </a>
+                    </div>
+
+                    <!-- Service Card 3 -->
+                    <div class="service-card">
+                        <div class="service-card__header">
+                            <div class="service-card__icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="service-card__title">Diseño Gráfico</h3>
+                        <p class="service-card__description">Logos, branding, diseño web y más. Creatividad sin límites.</p>
+                        <div class="service-card__info">
+                            <span class="service-card__price">Desde $35.000</span>
+                            <span class="service-card__type">Online</span>
+                        </div>
+                        <a href="servicio.html" class="btn btn--outline btn--full">
+                            Ver Detalles
+                            <span class="btn__arrow">→</span>
+                        </a>
+                    </div>
+
+                    <!-- Service Card 4 -->
+                    <div class="service-card">
+                        <div class="service-card__header">
+                            <div class="service-card__icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                    <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                                </svg>
+                            </div>
+                            <span class="badge badge--popular">Popular</span>
+                        </div>
+                        <h3 class="service-card__title">Tutorías Académicas</h3>
+                        <p class="service-card__description">Clases particulares en matemáticas, ciencias, idiomas y más.</p>
+                        <div class="service-card__info">
+                            <span class="service-card__price">Desde $15.000/hora</span>
+                            <span class="service-card__type">Online/Presencial</span>
+                        </div>
+                        <a href="servicio.html" class="btn btn--outline btn--full">
+                            Ver Detalles
+                            <span class="btn__arrow">→</span>
+                        </a>
+                    </div>
+
+                    <!-- Service Card 5 -->
+                    <div class="service-card">
+                        <div class="service-card__header">
+                            <div class="service-card__icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                                    <circle cx="12" cy="13" r="4"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="service-card__title">Fotografía Profesional</h3>
+                        <p class="service-card__description">Sesiones fotográficas para eventos, productos y retratos.</p>
+                        <div class="service-card__info">
+                            <span class="service-card__price">Desde $50.000</span>
+                            <span class="service-card__type">Presencial</span>
+                        </div>
+                        <a href="servicio.html" class="btn btn--outline btn--full">
+                            Ver Detalles
+                            <span class="btn__arrow">→</span>
+                        </a>
+                    </div>
+
+                    <!-- Service Card 6 -->
+                    <div class="service-card">
+                        <div class="service-card__header">
+                            <div class="service-card__icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                                    <line x1="8" y1="21" x2="16" y2="21"/>
+                                    <line x1="12" y1="17" x2="12" y2="21"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="service-card__title">Soporte Técnico</h3>
+                        <p class="service-card__description">Reparación de computadores, instalación de software y más.</p>
+                        <div class="service-card__info">
+                            <span class="service-card__price">Desde $20.000</span>
+                            <span class="service-card__type">Online/Presencial</span>
+                        </div>
+                        <a href="servicio.html" class="btn btn--outline btn--full">
+                            Ver Detalles
+                            <span class="btn__arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Provider CTA -->
+                <div class="provider-cta">
+                    <h3 class="provider-cta__title">¿Eres profesional?</h3>
+                    <p class="provider-cta__description">
+                        Únete a nuestra plataforma y conecta con miles de clientes que necesitan tus servicios.
+                    </p>
+                    <a href="#contacto" class="btn btn--secondary btn--lg">Solicitar Alta como Proveedor</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="sobre-nosotros" class="section section--alt">
+            <div class="container">
+                <div class="about">
+                    <!-- Image Side -->
+                    <div class="about__image">
+                        <img src="./assets/img/equipo-de-profesionales-trabajando-en-oficina-mode.jpg" alt="Equipo 404 Service">
+                        <div class="about__badge">
+                            <div class="about__badge-number">Compromiso</div>
+                            <div class="about__badge-text">Conectando clientes con profesionales</div>
+                        </div>
+                    </div>
+
+                    <!-- Content Side -->
+                    <div class="about__content">
+                        <h2 class="section__title">
+                            Sobre <span class="text-primary">404 Service</span>
+                        </h2>
+                        <p class="about__text">
+                            Somos la plataforma líder en conectar profesionales con personas que necesitan servicios de calidad. Desde reparaciones del hogar hasta experiencias digitales, facilitamos encuentros que generan valor.
+                        </p>
+                        <p class="about__text">
+                            Nuestra misión es democratizar el acceso a servicios profesionales, garantizando calidad, seguridad y transparencia en cada interacción.
+                        </p>
+                        <ul class="features-list">
+                            <li class="features-list__item">
+                                <svg class="icon icon--check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                                <span>Profesionales verificados y certificados</span>
+                            </li>
+                            <li class="features-list__item">
+                                <svg class="icon icon--check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                                <span>Sistema de agendamiento flexible</span>
+                            </li>
+                            <li class="features-list__item">
+                                <svg class="icon icon--check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                                <span>Pagos seguros y protegidos</span>
+                            </li>
+                            <li class="features-list__item">
+                                <svg class="icon icon--check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                                <span>Atención al cliente 24/7</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="beneficios" class="section">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section__header">
+                    <h2 class="section__title">
+                        ¿Por qué elegir <span class="text-primary">404 Service</span>?
+                    </h2>
+                    <p class="section__subtitle">
+                        Nos diferenciamos por nuestro compromiso con la excelencia y la satisfacción de nuestros clientes.
+                    </p>
+                </div>
+
+                <!-- Benefits Grid -->
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-card__icon">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h3 class="benefit-card__title">Seguridad Garantizada</h3>
+                        <p class="benefit-card__description">Todos nuestros profesionales son verificados y certificados para tu tranquilidad.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-card__icon">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <h3 class="benefit-card__title">Agenda Flexible</h3>
+                        <p class="benefit-card__description">Elige el horario que mejor te acomode. Disponibilidad 24/7.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-card__icon">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <h3 class="benefit-card__title">Calidad Premium</h3>
+                        <p class="benefit-card__description">Solo trabajamos con los mejores. Calificaciones reales de clientes.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-card__icon">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
+                                <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
+                            </svg>
+                        </div>
+                        <h3 class="benefit-card__title">Soporte Continuo</h3>
+                        <p class="benefit-card__description">Nuestro equipo está siempre disponible para ayudarte en lo que necesites.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonios" class="section section--alt">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section__header">
+                    <h2 class="section__title">
+                        Lo que dicen nuestros <span class="text-primary">clientes</span>
+                    </h2>
+                    <p class="section__subtitle">
+                        Miles de personas confían en 404 Service para encontrar los servicios que necesitan.
+                    </p>
+                </div>
+
+                <!-- Testimonials Grid -->
+                <div class="testimonials-grid">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__rating">
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <p class="testimonial-card__text">"Contraté un gasfitero para una emergencia y llegó en menos de una hora. Excelente servicio y muy profesional."</p>
+                        <div class="testimonial-card__author">
+                            <img src="./assets/img/mujer-adulta.png" alt="María González" class="testimonial-card__avatar">
+                            <div>
+                                <div class="testimonial-card__name">María González</div>
+                                <div class="testimonial-card__role">Cliente verificada</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__rating">
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <p class="testimonial-card__text">"Las sesiones de gaming online son increíbles. He mejorado mucho mi nivel y conocido gente genial."</p>
+                        <div class="testimonial-card__author">
+                            <img src="./assets/img/hombre-con-lentes.jpg" alt="Carlos Ramírez" class="testimonial-card__avatar">
+                            <div>
+                                <div class="testimonial-card__name">Carlos Ramírez</div>
+                                <div class="testimonial-card__role">Cliente verificado</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__rating">
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <p class="testimonial-card__text">"Plataforma muy intuitiva. Encontré un tutor de matemáticas para mi hijo y los resultados son notables."</p>
+                        <div class="testimonial-card__author">
+                            <img src="./assets/img/mujer-sonriente.jpg" alt="Ana Torres" class="testimonial-card__avatar">
+                            <div>
+                                <div class="testimonial-card__name">Ana Torres</div>
+                                <div class="testimonial-card__role">Cliente verificada</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__rating">
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <p class="testimonial-card__text">"Como fotógrafo, 404 Service me ha ayudado a conseguir muchos clientes nuevos. Sistema de pago muy seguro."</p>
+                        <div class="testimonial-card__author">
+                            <img src="./assets/img/hombre-mayor.png" alt="Roberto Silva" class="testimonial-card__avatar">
+                            <div>
+                                <div class="testimonial-card__name">Roberto Silva</div>
+                                <div class="testimonial-card__role">Proveedor de servicios</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 5 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__rating">
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <p class="testimonial-card__text">"Contraté diseño gráfico para mi negocio. El resultado superó mis expectativas. Totalmente recomendado."</p>
+                        <div class="testimonial-card__author">
+                            <img src="./assets/img/young-woman.png" alt="Laura Méndez" class="testimonial-card__avatar">
+                            <div>
+                                <div class="testimonial-card__name">Laura Méndez</div>
+                                <div class="testimonial-card__role">Cliente verificada</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 6 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__rating">
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <p class="testimonial-card__text">"El soporte técnico que recibí fue rápido y efectivo. Resolvieron mi problema en una sesión online."</p>
+                        <div class="testimonial-card__author">
+                            <img src="./assets/img/joven-pensativo.png" alt="Diego Campos" class="testimonial-card__avatar">
+                            <div>
+                                <div class="testimonial-card__name">Diego Campos</div>
+                                <div class="testimonial-card__role">Cliente verificado</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="section">
+            <div class="container">
+                <div class="contact">
+                    <!-- Form Side -->
+                    <div class="contact__form-wrapper">
+                        <h2 class="section__title">Contáctanos</h2>
+                        <p class="contact__description">
+                            ¿Tienes preguntas? ¿Quieres ser proveedor? Escríbenos y te responderemos a la brevedad.
+                        </p>
+
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="type" class="form-label">Tipo de consulta</label>
+                                <select id="type" name="type" class="form-input" required>
+                                    <option value="cliente">Consulta de cliente</option>
+                                    <option value="proveedor">Solicitud de alta como proveedor</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Nombre completo</label>
+                                    <input type="text" id="name" name="name" class="form-input" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone" class="form-label">Teléfono</label>
+                                    <input type="tel" id="phone" name="phone" class="form-input" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Asunto</label>
+                                <input type="text" id="subject" name="subject" class="form-input" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Mensaje</label>
+                                <textarea id="message" name="message" rows="5" class="form-input" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn--primary btn--lg btn--full">
+                                Enviar Mensaje
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Info Side -->
+                    <div class="contact__info">
+                        <div class="contact-info-card">
+                            <div class="contact-info-card__icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                    <line x1="16" y1="2" x2="16" y2="6"/>
+                                    <line x1="8" y1="2" x2="8" y2="6"/>
+                                    <line x1="3" y1="10" x2="21" y2="10"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="contact-info-card__title">Email</h3>
+                                <p class="contact-info-card__text">contacto@404Service.cl</p>
+                                <p class="contact-info-card__text">soporte@404Service.cl</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-info-card__icon contact-info-card__icon--secondary">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="contact-info-card__title">Teléfono</h3>
+                                <p class="contact-info-card__text">+56 9 1234 5678</p>
+                                <p class="contact-info-card__meta">Lun - Vie: 9:00 - 18:00</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-info-card__icon">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="contact-info-card__title">Ubicación</h3>
+                                <p class="contact-info-card__text">Av. Providencia 1234</p>
+                                <p class="contact-info-card__text">Santiago, Chile</p>
+                            </div>
+                        </div>
+
+                        <div class="provider-info">
+                            <h3 class="provider-info__title">¿Quieres ser proveedor?</h3>
+                            <p class="provider-info__text">
+                                Completa el formulario seleccionando "Solicitud de alta como proveedor" y nos pondremos en contacto contigo para validar tu perfil e incorporarte a la plataforma.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <!-- Brand Column -->
+                <div class="footer__brand">
+                    <a href="#" class="logo">
+                        <div class="logo__icon logo__icon--footer">
+                            <span>404</span>
+                        </div>
+                        <span class="logo__text logo__text--footer">
+                            Service
+                        </span>
+                    </a>
+                    <p class="footer__description">
+                        Conectamos profesionales con personas que necesitan servicios de calidad. Tu satisfacción es nuestra prioridad.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Links Columns -->
+                <div class="footer__links">
+                    <h3 class="footer__links-title">Servicios</h3>
+                    <ul class="footer__links-list">
+                        <li><a href="#" class="footer__link">Gasfitería</a></li>
+                        <li><a href="#" class="footer__link">Gaming Online</a></li>
+                        <li><a href="#" class="footer__link">Diseño Gráfico</a></li>
+                        <li><a href="#" class="footer__link">Tutorías</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__links">
+                    <h3 class="footer__links-title">Empresa</h3>
+                    <ul class="footer__links-list">
+                        <li><a href="#sobre-nosotros" class="footer__link">Sobre Nosotros</a></li>
+                        <li><a href="#beneficios" class="footer__link">Beneficios</a></li>
+                        <li><a href="#testimonios" class="footer__link">Testimonios</a></li>
+                        <li><a href="#contacto" class="footer__link">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__links">
+                    <h3 class="footer__links-title">Legal</h3>
+                    <ul class="footer__links-list">
+                        <li><a href="#" class="footer__link">Términos y Condiciones</a></li>
+                        <li><a href="#" class="footer__link">Política de Privacidad</a></li>
+                        <li><a href="#" class="footer__link">Política de Cookies</a></li>
+                        <li><a href="#" class="footer__link">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2025 404 Service. Todos los derechos reservados.</p>
+                <p class="footer__made-with">Hecho con ❤️ en Chile</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <svg class="toast__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+            <polyline points="22 4 12 14.01 9 11.01"/>
+        </svg>
+        <div class="toast__content">
+            <div class="toast__title">¡Mensaje enviado con éxito!</div>
+            <div class="toast__description">Te contactaremos pronto. Gracias por tu interés.</div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
